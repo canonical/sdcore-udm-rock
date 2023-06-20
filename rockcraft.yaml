@@ -1,0 +1,19 @@
+name: sdcore-udm
+base: ubuntu:22.04
+version: '1.3'
+summary: SD-Core UDM
+description: SD-Core UDM
+license: Apache-2.0
+platforms:
+  amd64:
+
+parts:
+  udm:
+    plugin: go
+    source: https://github.com/omec-project/udm.git
+    source-type: git
+    source-commit: 695665999de2def14f503a203bfe8e2b2a744a01
+    build-snaps:
+      - go/1.18/stable
+    organize:
+      bin/cmd: bin/udm
