@@ -1,6 +1,6 @@
 name: sdcore-udm
 base: bare
-build-base: ubuntu:22.04
+build-base: ubuntu@22.04
 version: '1.3'
 summary: SD-Core UDM
 description: SD-Core UDM
@@ -14,9 +14,9 @@ parts:
     plugin: go
     source: https://github.com/omec-project/udm.git
     source-type: git
-    source-commit: 695665999de2def14f503a203bfe8e2b2a744a01
+    source-commit: 8964b762254765717d3bf705f979a35b6cd5f58e
     build-snaps:
-      - go/1.18/stable
+      - go/1.21/stable
     stage-packages:
       - libc6_libs
     organize:
