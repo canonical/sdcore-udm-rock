@@ -14,7 +14,7 @@ parts:
     plugin: go
     source: https://github.com/omec-project/udm.git
     source-type: git
-    source-commit: 8964b762254765717d3bf705f979a35b6cd5f58e
+    source-commit: 654e165ee8da01db986fdd9fb4125d3554f35818
     build-snaps:
       - go/1.21/stable
     stage-packages:
