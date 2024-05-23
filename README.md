@@ -1,4 +1,4 @@
-# SD-Core UDM ROCK
+# SD-Core UDM rock
 
 Container image for SD-Core UDM.
 
